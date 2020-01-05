@@ -12,7 +12,7 @@ function nextSlide() {
     duration: 1000,
     fill: "forwards"
   });
-  if (counter === 4) {
+  if (counter === 5) {
     counter = -1;
   }
   counter++;
@@ -26,7 +26,7 @@ function prevSlide() {
     fill: "forwards"
   });
   if (counter === 0) {
-    counter = 5;
+    counter = 6;
   }
   counter--;
 
